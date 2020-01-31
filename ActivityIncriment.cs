@@ -15,7 +15,6 @@ namespace Rappel
             Rappel.incrementer();
             Rappel.incrementer();
             Rappel.incrementer();
-            Rappel.incrementer();
             System.Console.WriteLine("La valeur est : " +
             Rappel.valeur);
         }
