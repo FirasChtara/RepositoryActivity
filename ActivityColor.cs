@@ -12,7 +12,7 @@ namespace EnumExemple
         static void Main(string[] args)
         {
             Couleur maCouleur = Couleur.rouge | Couleur.bleu;
-            Console.WriteLine("La couleur courante est : " + maCouleur.ToString());
+            Console.WriteLine("La couleur courante est : {0} ", maCouleur.ToString());
         }
     }
 }
