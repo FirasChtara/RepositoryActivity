@@ -13,10 +13,7 @@ namespace Rappel
         static void Main(string[] args)
         {
             Rappel.incrementer();
-            Rappel.incrementer();
-            Rappel.incrementer();
-            System.Console.WriteLine("La valeur est : " +
-            Rappel.valeur);
+            System.Console.WriteLine("La valeur est : {0} ", Rappel.valeur);
         }
     }
 }
